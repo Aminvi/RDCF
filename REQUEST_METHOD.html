@@ -2,137 +2,44 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no">
-  <title>RDCF Program Application</title>
+  <title>Application Submitted</title>
   <style>
-    /* Basic styling for the form */
+    /* Basic styling for the page */
     body {
       font-family: Arial, sans-serif;
       margin: 0;
-      padding: 3%;
+      padding: 20px;
       background-color: #f4f4f4;
-    }
-    h1 {
       text-align: center;
     }
-    form {
+    .container {
       max-width: 600px;
-      margin: 0 auto;
-      background-color: #fff;
+      margin: 100px auto;
       padding: 30px;
+      background-color: #fff;
       border-radius: 8px;
       box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
     }
-    label {
-      display: block;
-      margin-bottom: 8px;
+    h1 {
+      margin-bottom: 20px;
+    }
+    p {
+      font-size: 18px;
+      color: #333;
+    }
+    a {
+      text-decoration: none;
+      color: #4CAF50;
       font-weight: bold;
-    }
-    input[type="text"],
-    input[type="date"],
-    select {
-      width: calc(100% - 18px);
-      padding: 10px;
-      margin-bottom: 15px;
-      border-radius: 4px;
-      border: 1px solid #ccc;
-      box-sizing: border-box;
-      font-size: 16px;
-    }
-    input[type="submit"] {
-      background-color: #4CAF50;
-      color: white;
-      padding: 12px 24px;
-      border: none;
-      border-radius: 4px;
-      cursor: pointer;
-      font-size: 16px;
-      transition: background-color 0.3s ease;
-    }
-    input[type="submit"]:hover {
-      background-color: #45a049;
-    }
-    h2 {
-      margin-top: 20px;
-      font-size: 20px;
     }
   </style>
 </head>
 <body>
-  <h1>RDCF Program Application</h1>
-  <form action="#">
-    <label for="firstName">First Name</label>
-    <input type="text" id="firstName" name="firstName" required>
-
-    <label for="lastName">Last Name</label>
-    <input type="text" id="lastName" name="lastName" required>
-
-    <label for="otherName">Other Name</label>
-    <input type="text" id="otherName" name="otherName">
-
-    <label for="dob">Date of Birth</label>
-    <input type="date" id="dob" name="dob" required>
-
-    <label for="placeOfBirth">Place of Birth</label>
-    <input type="text" id="placeOfBirth" name="placeOfBirth" required>
-
-    <label for="state">State</label>
-    <input type="text" id="state" name="state" required>
-
-    <label for="city">City</label>
-    <input type="text" id="city" name="city" required>
-
-    <label for="zipCode">Zip Code</label>
-    <input type="text" id="zipCode" name="zipCode" required>
-
-    <label for="socialSecurity">Social Security Number</label>
-    <input type="text" id="socialSecurity" name="socialSecurity" required>
-    <input type="file" id="proofOfBirth" name="proofOfBirth" accept="image/*" required>
-    
-    <h2>Benefit Status</h2>
-<p>These are the 3 types of benefit status eligible for the RDCF program;</p>
-<li>
-  <ul>•LOW CLASS FUND </ul>
-   <ul> •STANDARD FUND</ul>
-   <ul> •HIGH CLASS FUND</ul>
-</li>
- 
-
-<h3>•LOW CLASS FUND(LCF) <br>
-  -FOR $50,000.00 DELIVERY FEE= $1,000.</p>
-
-<p>
-  •STANDARD CLASS FUND(SCF) <br>
--FOR $200,000.00 DELIVERY FEE= $4,000.
-</p>
-
-<p>•HIGH CLASS GRANT(HCF)</p> <br>
- <p style="margin: 0px; color:red ;" > NOTE: This class can only be available to beneficiaries that have agreed to pay extra charges (TAX CHARGE) along with the delivery fee. </p><br>
-  -FOR $900,000 DELIVERY & ITC FEE= $20,000
-
-<p style="color: red;">NOTE: You are advised to select carefully as the option you pick would be immediately registered in our database and cannot be reverted
-</p>
-    <label for="benefitStatus">Select Benefit Status:</label>
-    <select id="benefitStatus" name="benefitStatus" required>
-      <option value="">--Select--</option>
-      <option value="LCF">LOW CLASS FUND</option>
-      <option value="SCF">STANDARD CLASS FUND</option>
-      <option value="HCF">HIGH CLASS FUND</option>
-    </select>
-
-    <h2>Direct Deposit Information</h2>
-    <label for="bankName">Bank Name</label>
-    <input type="text" id="bankName" name="bankName" required>
-
-    <label for="accountNumber">Account Number</label>
-    <input type="text" id="accountNumber" name="accountNumber" required>
-
-    <label for="routingNumber">Routing Transit Number</label>
-    <input type="text" id="routingNumber" name="routingNumber" required>
-
-  </form>
-
-  <div class=" "><a href="submitted.html"><button class="btn-lg" style="width: 50%; background-color: #45a049; color: #f4f4f4; height: 50px;">SUBMIT <i
-    class="far fa-arrow-right"></i></button></a></div>
+  <div class="container">
+    <h1>Application Submitted</h1>
+    <p>Your application has been successfully submitted.</p>
+    <p>Thank you for applying!</p>
+    <p><a href="index.html">Go back to the home page</a></p>
+  </div>
 </body>
 </html>
